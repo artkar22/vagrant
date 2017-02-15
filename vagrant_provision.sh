@@ -3,13 +3,13 @@ sudo apt-get update
 echo "Installing Apache.."
 sudo apt-get install -y apache2
 echo "Installing Tomcat.."
-sudo apt-get install -y tomcat7
+sudo apt-get install -y tomcat8
 echo "Installing Tomcat7 docs.."
-sudo apt-get install -y tomcat7-docs
+sudo apt-get install -y tomcat8-docs
 echo "Installing Tomcat7 administration webapps.."
-sudo apt-get install -y tomcat7-admin
+sudo apt-get install -y tomcat8-admin
 echo "Installing Tomcat7 examples webapps.."
-sudo apt-get install tomcat7-examples
+sudo apt-get install tomcat8-examples
 echo "Installing Git.."
 sudo apt-get install -y git
 echo "Installing Maven.."
