@@ -1,0 +1,1 @@
+sudo cp ../../vagrant/myApp.war ../../var/lib/tomcat8/webapps

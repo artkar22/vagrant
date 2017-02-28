@@ -4,6 +4,12 @@ deploy na vagranta:
 -umieœciæ paczkê z apk¹ do folderu vagranta
 -git bash ->vagrant ssh -> 2x cd .. ->
 sudo cp ../vagrant/myApp.war var/lib/tomcat8/webapps
+
+ALBO:
+za pierwszym postawieniem vagranta:
+2x cd ..
+sudo cp ../vagrant/deploy.sh home/ubuntu/
+a potem tylko vagrant ssh -> ./deploy.sh
 ---------------------------------------------------------------
 java zmiana: 
 cd etc/default 
