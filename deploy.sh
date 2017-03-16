@@ -1,1 +1,1 @@
-sudo cp ../../vagrant/myApp.war ../../var/lib/tomcat8/webapps
+sudo cp ../../vagrant/SpringApp-1.0-SNAPSHOT.war ../../var/lib/tomcat8/webapps/myApp.war
